@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/972066d418.js" crossorigin="anonymous"></script>
+    <title>Help Center</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+                    <a class="navbar-brand" href="#">Naija's Beverages</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">                    
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"  href="#" data-toggle="dropdown" id="navbardrop">Drinks</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="Bigi.html">Bigi Drinks</a>
+                            <a class="dropdown-item" href="Fura.html">Fura Da Nono</a>
+                            <a class="dropdown-item" href="zobo.html">Zobo</a>
+                            <a class="dropdown-item" href="kunun.html">Kunu</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Info</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"  href="#" data-toggle="dropdown" id="navbardrop">Help</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Help Center</a>
+                            <a class="dropdown-item" href="#">Place & Track Order</a>
+                            <a class="dropdown-item" href="#">Order Cancellation</a>
+                            <a class="dropdown-item" href="#">Return & Refunds</a>
+                            <a class="dropdown-item" href="#">Payment Means</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <form class="navbar-form form-inline">
+                <input type="text" placeholder="Search" class="form-control" name="search">
+                <button class="btn btn-success" type="submit"><i class="fa-solid fa-magnifying-glass fa-1.5x"></i></button>                                        
+            </form>
+            <div class="dropdown account">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"><span class="material-icons">person</span>Account</button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">My Account</a>
+                    <a class="dropdown-item" href="#">My Orders</a>
+                    <a class="dropdown-item" href="#">Saved Items</a>
+                </div>
+            </div>
+            
+            <button type="button" class="btn btn-warning"><span class="material-icons">shopping_cart</span><span class="ria">Cart</span></button>
+        </nav>
+
+        <div class="body">
+            <div class="form">
+                <h2><span class="material-icons support">support_agent</span>HELP CENTER</h2>
+                <input type="text" placeholder="Search for products, brands and categories" class="form-control" name="search">
+                <button class="btn btn-success" type="submit">Search</button>
+            </div> 
+            <div class="icons">
+                <div class="one">
+                    <span class="material-icons image">shopping_cart_checkout</span>
+                    <p class="text">Place Order</p>
+                </div>
+                <div class="two">
+                    <span class="material-icons image">local_shipping</span>
+                    <p class="text">Track Order</p>
+                </div>
+                <div class="three">
+                    <span class="material-icons image">production_quantity_limits</span>
+                    <p class="text">Order Cancellation</p>
+                </div>
+                <div class="four">
+                    <span class="material-icons image">undo</span>
+                    <p class="text">Returns and Refunds</p>
+                </div>
+                <div class="five">
+                    <span class="material-icons image">payments</span>
+                    <p class="text">Payment</p>
+                </div>
+    
+            </div>
+        </div>
+        <footer>
+            <h3>Naija's Beverages</h3>
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter fa-2x"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp fa-2x"></i></a>
+            </div>
+            <p class="end">© Naija's Own Beverages, 2022</p>
+        </footer>
+    
+        <style>
+            .form-control {
+                display: inline-block;
+            }
+            h2 {
+                text-align: center;
+                /* display: flex; */
+            }
+            .form {
+                padding-top: 90px;
+            }
+            .image {
+                font-size: 100px ;
+                color: #D07000;
+            }
+            .icons {
+                display: flex;
+                justify-content: center;
+                padding-top: 30px;
+                padding-left: 90px;
+            }
+            .support {
+                font-size: 50px;
+            }
+            footer {
+               background-color: rgb(83, 60, 60);
+               color: white;
+               margin-top: 90px;
+               padding: 100px;
+            }
+            .end {
+               text-align: center;
+               padding-top: 60px;
+            }
+            .social {
+               align-items: center;
+               margin-left: 47%;
+            }
+            h3 {
+                text-align: center;
+            }
+
+            p {
+               color: #f9f5f5;
+               font-size: 1.5rem;
+            }
+            .text {
+                color: black;
+            }
+            .btn-secondary {
+                display: flex;
+                justify-items: center;
+                margin-right: 40px;
+            }
+            .btn-warning {
+                font-weight: bolder;
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+   
+            }
+            .material-icons {
+                padding-right: 10px;
+            }
+
+
+
+
+        </style>
+        
+    
+</body>
+</html>
